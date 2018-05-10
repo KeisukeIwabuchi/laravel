@@ -68772,26 +68772,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'home',
@@ -68888,98 +68868,6 @@ var render = function() {
                   _c(
                     "v-list-tile-content",
                     [_c("v-list-tile-title", [_vm._v("ダッシュボード")])],
-                    1
-                  )
-                ],
-                1
-              ),
-              _c(
-                "v-list-tile",
-                {
-                  on: {
-                    click: function() {
-                      this$1.$router.push("/home/add_memo")
-                    }
-                  }
-                },
-                [
-                  _c(
-                    "v-list-tile-action",
-                    [_c("v-icon", [_vm._v("add_circle_outline")])],
-                    1
-                  ),
-                  _c(
-                    "v-list-tile-content",
-                    [_c("v-list-tile-title", [_vm._v("メモを追加")])],
-                    1
-                  )
-                ],
-                1
-              ),
-              _c(
-                "v-list-tile",
-                {
-                  on: {
-                    click: function() {
-                      this$1.$router.push("/home/add_notebook")
-                    }
-                  }
-                },
-                [
-                  _c(
-                    "v-list-tile-action",
-                    [_c("v-icon", [_vm._v("note_add")])],
-                    1
-                  ),
-                  _c(
-                    "v-list-tile-content",
-                    [_c("v-list-tile-title", [_vm._v("ノートを追加")])],
-                    1
-                  )
-                ],
-                1
-              ),
-              _c(
-                "v-list-tile",
-                {
-                  on: {
-                    click: function() {
-                      this$1.$router.push("/home/add_pen")
-                    }
-                  }
-                },
-                [
-                  _c(
-                    "v-list-tile-action",
-                    [_c("v-icon", [_vm._v("create")])],
-                    1
-                  ),
-                  _c(
-                    "v-list-tile-content",
-                    [_c("v-list-tile-title", [_vm._v("ペンを追加")])],
-                    1
-                  )
-                ],
-                1
-              ),
-              _c(
-                "v-list-tile",
-                {
-                  on: {
-                    click: function() {
-                      this$1.$router.push("/home/search")
-                    }
-                  }
-                },
-                [
-                  _c(
-                    "v-list-tile-action",
-                    [_c("v-icon", [_vm._v("search")])],
-                    1
-                  ),
-                  _c(
-                    "v-list-tile-content",
-                    [_c("v-list-tile-title", [_vm._v("検索")])],
                     1
                   )
                 ],

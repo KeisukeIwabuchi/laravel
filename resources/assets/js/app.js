@@ -19,8 +19,6 @@ const app = new Vue({
   created () {
     axios.get('/api/user').then(response => {
       store.commit('SET_USER', response.data)
-    }).catch(err => {
-      
-    })
+    }).catch(err => {})
   }
 });
