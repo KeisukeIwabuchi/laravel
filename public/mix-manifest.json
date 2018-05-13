@@ -1,6 +1,6 @@
 {
+    "/js/laravel.js": "/js/laravel.js",
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
-    "/css/vuetify.css": "/css/vuetify.css",
-    "/js/laravel.js": "/js/laravel.js"
+    "/css/vuetify.css": "/css/vuetify.css"
 }
